@@ -19,7 +19,7 @@ export STARTUPWMCLASS=mousai # For Wayland, this is 'io.github.seadve.Mousai', s
 # Trace and deploy all files and directories needed for the application (including binaries, libraries and others)
 wget --retry-connrefused --tries=30 "$SHARUN" -O ./quick-sharun
 chmod +x ./quick-sharun
-./quick-sharun /usr/bin/mousai /usr/lib/gio/modules/libgiognomeproxy.so /usr/lib/gio/modules/libgiognutls.so /usr/lib/gio/modules/libgiolibproxy.so
+./quick-sharun /usr/bin/mousai /usr/lib/gio/modules/libgiognutls.so*
 
 ## Set gsettings to save to keyfile, instead to dconf
 echo "GSETTINGS_BACKEND=keyfile" >> ./AppDir/.env
