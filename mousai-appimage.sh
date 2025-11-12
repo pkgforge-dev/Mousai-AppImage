@@ -13,6 +13,7 @@ export DESKTOP=/usr/share/applications/io.github.seadve.Mousai.desktop
 export ICON=/usr/share/icons/hicolor/scalable/apps/io.github.seadve.Mousai.svg
 export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
+export DEPLOY_GSTREAMER=1
 export STARTUPWMCLASS=mousai # For Wayland, this is 'io.github.seadve.Mousai', so this needs to be changed in desktop file manually by the user in that case until some potential automatic fix exists for this
 
 # Trace and deploy all files and directories needed for the application (including binaries, libraries and others)
