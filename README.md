@@ -1,7 +1,7 @@
 # Mousai-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Mousai-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Mousai-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/Mousai-AppImage/actions/workflows/blank.yml/badge.svg)](https://github.com/pkgforge-dev/Mousai-AppImage/releases/latest)
+[![CI Build Status](https://github.com//pkgforge-dev/Mousai-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Mousai-AppImage/releases/latest)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SeaDve/Mousai/refs/heads/main/data/icons/io.github.seadve.Mousai.svg" width="128" />
