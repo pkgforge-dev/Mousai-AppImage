@@ -13,7 +13,8 @@ export DESKTOP=/usr/share/applications/io.github.seadve.Mousai.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 export DEPLOY_GSTREAMER=1
-export STARTUPWMCLASS=mousai # For Wayland, this is 'io.github.seadve.Mousai', so this needs to be changed in desktop file manually by the user in that case until some potential automatic fix exists for this
+export STARTUPWMCLASS=mousai
+export GTK_CLASS_FIX=1
 
 # Trace and deploy all files and directories needed for the application (including binaries, libraries and others)
 quick-sharun /usr/bin/mousai \
