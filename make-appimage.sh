@@ -10,7 +10,6 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/io.github.seadve.Mousai.svg
 export DESKTOP=/usr/share/applications/io.github.seadve.Mousai.desktop
-export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 export DEPLOY_GSTREAMER=1
 export STARTUPWMCLASS=io.github.seadve.Mousai # Default to Wayland's wmclass. For X11, GTK_CLASS_FIX will force the wmclass to be the Wayland one.
