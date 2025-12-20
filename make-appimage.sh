@@ -13,6 +13,7 @@ export DESKTOP=/usr/share/applications/io.github.seadve.Mousai.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 export DEPLOY_GSTREAMER=1
+export STARTUPWMCLASS=io.github.seadve.Mousai # Default to Wayland's wmclass. For X11, GTK_CLASS_FIX will force the wmclass to be the Wayland one.
 export GTK_CLASS_FIX=1
 
 # Trace and deploy all files and directories needed for the application (including binaries, libraries and others)
