@@ -1,3 +1,5 @@
+<div align="center">
+
 # Mousai AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Mousai-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Mousai-AppImage/releases/latest)
@@ -8,7 +10,12 @@
   <img src="https://raw.githubusercontent.com/SeaDve/Mousai/refs/heads/main/data/icons/io.github.seadve.Mousai.svg" width="128" />
 </p>
 
-* [Upstream URL](https://github.com/SeaDve/Mousai)
+
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/Mousai-AppImage/releases/latest) | [Click here](https://github.com/SeaDve/Mousai) |
+
+</div>
 
 ---
 
