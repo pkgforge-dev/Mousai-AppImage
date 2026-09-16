@@ -7,8 +7,7 @@ ARCH=$(uname -m)
 echo "Installing package and its dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-            mousai \
-            pipewire-jack
+            mousai
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
